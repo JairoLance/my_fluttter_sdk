@@ -1,2 +1,1 @@
-// settings.gradle
-include ':sdk:android'
+include ':flutter'
