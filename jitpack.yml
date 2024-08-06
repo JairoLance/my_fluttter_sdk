@@ -1,3 +1,8 @@
+jdk:
+  - openjdk11
+
+before_install:
+  - chmod +x gradlew
+
 install:
-  - chmod +x ./gradlew
-  - ./gradlew clean build publishToMavenLocal
+  - ./gradlew clean build
